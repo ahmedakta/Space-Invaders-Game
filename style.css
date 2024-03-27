@@ -1,0 +1,45 @@
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.game-title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grid{
+    text-align: center;
+    margin: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border: dotted 1px black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.grid div{
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+
+.invader{
+    background-color: black;
+    border-radius: 10px;
+}
+
+.shooter{
+    background-color: green;
+}
+
+.laser{
+    background-color: orange;
+}
+
+.boom{
+    background-color: red;
+}
